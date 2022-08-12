@@ -2,52 +2,6 @@
 
 *{font-family: 'Poppins', sans-serif;}
 
-/* custom Swiper classes - Swiper - swiperjs.com */
-/* .swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-
-#home-hero-social a{
-    font-size: 22px;
-}
-
-#about p, #features p, #pricing ul li, #portfolio p{
-    font-weight: 300;
-}
-
-#about a.btn.btn-primary{
-    font-size: 16px;
-}
-
-#features .feature-icon{
-    width: 4rem;
-    height: 4rem;
-    border-radius: .75rem;
-}
-
-#testimonials{
-    height: 300px;
-} */
-
 a.btn-theme{
     background: #00bf85;
     font-weight: 600;
@@ -183,4 +137,10 @@ a.btn-theme-dark{
 
 #portfolio .card:hover img{
     transform: scale(1.1);
+}
+
+
+
+footer{
+    font-size: 14px;
 }
