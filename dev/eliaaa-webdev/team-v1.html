@@ -10,33 +10,88 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="heading"><span></span>Notre équipe</h1>
+  <nav class="navbar navbar-dark bg-dark text-white fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="landing-v2.html">eliaaa-webdev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">eliaaa-webdev</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="landing-v2.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Accueil
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="landing-v2.html">Accueil</a></li>
+                                <li><a class="dropdown-item" href="landing-v2#about">À propos</a></li>
+                                <li><a class="dropdown-item" href="landing-v2#features">Services</a></li>
+                                <li><a class="dropdown-item" href="landing-v2#pricing">Forfaits</a></li>
+                                <li><a class="dropdown-item" href="landing-v2#portfolio">Portfolio</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-v1.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Réseaux sociaux
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li>
+                                    <a class="dropdown-item" href="https://www.instagram.com/eliaaa.webdev/"><i class="bi bi-instagram me-2"></i>Instagram</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.facebook.com/eliaaa.webdev/"><i class="bi bi-facebook me-2"></i>Facebook</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://twitter.com/CostecharayreE"><i class="bi bi-twitter me-2"></i>Twitter</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="https://www.linkedin.com/in/elia-costecharayre-b74530239/"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    <div class="profiles">
-      <div class="profile">
-        <img src="elia.png" class="profile-img">
+    <div style="height: 50px;"></div>
 
-        <h3 class="user-name">Elia</h3>
-        <h5>CEO - développeur</h5>
-        <p>Elia, chef de projet, étudiant en informatique est très impliqué dans le développement web. Ainsi il veille à la rapidité et la fluidité des projets.</p>
-      </div>
-      <div class="profile">
-        <img src="welpike.png" class="profile-img">
+    <div class="container">
+      <h1 class="heading"><span></span>Notre équipe</h1>
 
-        <h3 class="user-name">Welpike</h3>
-        <h5>Chef de projet - développeur</h5>
-        <p>Welpike, chef de projet, étudiant en informatique est impliqué dans le développement web. Ainsi il est plutôt du côté gestion des projets et dans les parties les plus techniques des projets.</p>
-      </div>
-      <div class="profile">
-        <img src="camille.png" class="profile-img">
+      <div class="profiles">
+        <div class="profile">
+          <img src="elia.png" class="profile-img">
 
-        <h3 class="user-name">Camille</h3>
-        <h5>Community manager - graphiste</h5>
-        <p>Camille, community manager, répond aux demandes des clients. Mais elle est aussi notre graphiste pour chaque projet que nous déroulons.</p>
+          <h3 class="user-name">Elia</h3>
+          <h5>CEO - développeur</h5>
+          <p>Elia, chef de projet, étudiant en informatique est très impliqué dans le développement web. Ainsi il veille à la rapidité et la fluidité des projets.</p>
+        </div>
+        <div class="profile">
+          <img src="welpike.png" class="profile-img">
+
+          <h3 class="user-name">Welpike</h3>
+          <h5>Chef de projet - développeur</h5>
+          <p>Welpike, chef de projet, étudiant en informatique est impliqué dans le développement web. Ainsi il est plutôt du côté gestion des projets et dans les parties les plus techniques des projets.</p>
+        </div>
+        <div class="profile">
+          <img src="camille.png" class="profile-img">
+
+          <h3 class="user-name">Camille</h3>
+          <h5>Community manager - graphiste</h5>
+          <p>Camille, community manager, répond aux demandes des clients. Mais elle est aussi notre graphiste pour chaque projet que nous déroulons.</p>
+        </div>
       </div>
     </div>
-  </div>
 </body>
 
 </html>
