@@ -42,3 +42,7 @@
     align-items: center;
     justify-content: center;
 }
+
+#bike-cafe .img-container{
+    max-width: 100%;
+}
