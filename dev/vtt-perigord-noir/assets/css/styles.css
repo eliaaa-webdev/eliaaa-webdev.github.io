@@ -1,0 +1,44 @@
+/* eliaaa-webdev */
+
+.hero p{
+    margin-bottom: 0;
+}
+
+#index .mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#partners .row a{
+    height: 300px;
+    border: 5px solid #fff;
+    transition: all 0.4s ease;
+}
+
+#partners .row a:hover{
+    transform: scale(0.8);
+}
+
+#rent .carousel, #rent .carousel .carousel-inner, #rent .carousel .carousel-item{
+    height: 450px;
+}
+
+#rent .carousel .carousel-item img{
+    height: 100%;
+    width: 50%;
+    left: 0;
+    right: 50%;
+    padding-bottom: 50px;
+}
+
+#rent .carousel .carousel-caption{
+    height: 100%;
+    width: 50%;
+    right: 0;
+    left: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
