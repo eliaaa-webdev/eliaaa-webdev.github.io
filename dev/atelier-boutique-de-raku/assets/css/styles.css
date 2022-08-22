@@ -1,0 +1,24 @@
+/* eliaaa-webdev for Raku */
+
+#form-contact #firstName, #form-contact #lastName{
+    width: 49%;
+}
+
+#contact-content ul p{
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:763px){
+    #index header nav{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:987px){
+    #contact #contact-content{
+        justify-content: center !important;
+    }
+    #contact #contact-content form{
+        margin-top: 40px;
+    }
+}
