@@ -79,7 +79,7 @@
     height: 500px;
     width: 1200px;
     background-size: cover;
-    background-position: center center;
+    background-position: right center;
     background-image: url("../img/contact-img.png");
     transform: translate3d(0px, 44.5px, 0px);
 }
