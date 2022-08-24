@@ -134,6 +134,9 @@
     #bike-cafe .img-container img{
         width: 100% !important;
     }
+    #contact .mid, #booking .mid, #workshop .container.hero{
+        text-align: center;
+    } 
 }
 
 @media screen and (max-width:425px){
