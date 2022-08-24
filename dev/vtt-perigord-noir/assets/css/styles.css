@@ -25,7 +25,12 @@
 }
 
 .banner h1{
-    font-size: 85px !important;
+    font-size: 64px !important;
+}
+
+.hero img{
+    max-width: 50%;
+    height: auto;
 }
 
 #index .mid{
@@ -53,6 +58,7 @@
     height: 450px;
 }
 
+
 #rent .carousel .carousel-item img{
     height: 100%;
     width: 50%;
@@ -77,9 +83,61 @@
 
 #contact .contact-img{
     height: 500px;
-    width: 1200px;
+    width: 500px;
     background-size: cover;
     background-position: center center;
     background-image: url("../img/contact-img.png");
     transform: translate3d(0px, 44.5px, 0px);
+}
+
+/* responsive */
+
+@media screen and (max-width:996px){
+    .hero{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero .hero-text, .hero img{
+        min-width: 100% !important;
+    }
+}
+
+@media screen and (max-width:926px){
+    .banner{
+        width: 100%;
+        text-align: center;
+    }
+    #index .mid div{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:999px){
+    #contact .mid{
+        flex-direction: column-reverse !important;
+    }
+    #contact .mid img.img-fluid{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:851px){
+    iframe{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:594px){
+    #bike-cafe .img-container{
+        flex-direction: column;
+    }
+    #bike-cafe .img-container img{
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:425px){
+    .navbar a.navbar-brand p{
+        font-size: 12px !important;
+    }
 }
