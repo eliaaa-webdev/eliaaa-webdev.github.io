@@ -54,27 +54,23 @@
     transform: scale(0.8);
 }
 
-#rent .carousel, #rent .carousel .carousel-inner, #rent .carousel .carousel-item{
+#rent .rent-item{
     height: 450px;
-}
-
-
-#rent .carousel .carousel-item img{
-    height: 100%;
-    width: 50%;
-    left: 0;
-    right: 50%;
-    padding-bottom: 50px;
-}
-
-#rent .carousel .carousel-caption{
-    height: 100%;
-    width: 50%;
-    right: 0;
-    left: 50%;
-    display: flex !important;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#rent .d-flex .rent-item{
+    flex-direction: column;
+    text-align: center;
+}
+
+#rent .rent-item img{
+    height: 100%;
+    width: 50%;
+    padding-bottom: 50px;
 }
 
 #bike-cafe .img-container{
