@@ -121,6 +121,10 @@
     iframe{
         width: 100%;
     }
+    #rent .rent-item, #rent .d-flex.align-items-center.justify-content-around{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:594px){
