@@ -171,7 +171,7 @@ header .logo_link {
 }
 .list_box {
     width: 100%;
-    display: grid;
+    display: flex;
     justify-content: center;
     grid-template-columns: repeat(auto-fill,265px);
     grid-gap: 10px;
@@ -267,6 +267,10 @@ footer {
     letter-spacing: 1px;
     font-size: 15px;
 }
+.footer .footer-content ul{
+    list-style-type: none !important;
+}
+
 .socials {
     list-style: none;
     display: flex;
@@ -286,6 +290,7 @@ footer {
 .socials a:hover {
     color: #000;
 }
+
 .footer-bottom {
     background-color: #333;
     color: #fff;
@@ -306,6 +311,12 @@ footer {
     display: none;
 }
 /*responsive*/
+
+@media (max-width:1000px) {
+    iframe{
+        width: 100% !important;
+    }
+}
 
 @media (max-width:935px) {
     header{
@@ -377,7 +388,40 @@ footer {
         background-color: #111;
     }
 
+    .about{
+        flex-direction: column;
+    }
 
+    .about div{
+        width: 100% !important;
+    }
+
+    .why_us .list_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .why_us .list_box .box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 830px){
+    h1{
+        text-align: center !important;
+    }
+    .home{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .home > div{
+        width: 100% !important;
+    }
+    .home .statistiques{
+        position: static;
+    }
+    .about{
+        margin-top: 250px;
+    }
 }
 
 @media (max-width:588px) {
@@ -386,22 +430,15 @@ footer {
     }
     .home {
         margin: 25px;
-        flex-direction: column-reverse;
         height: auto;
         padding-bottom: 25px;
+        gap: 20px !important;
     }
     .home p , .home h1 {
         margin: 0;
     }
-    .home .left , .home .right {
-        width: 100%;
-        height: fit-content;
-    }
     .home .right {
         height: auto;
-    }
-    .statistiques{
-        bottom:-100px;
     }
     .statistiques h2 {
         font-size: 15px;
@@ -409,20 +446,28 @@ footer {
     .statistiques p {
         font-size: 12px;
     }
-    .about {
-        flex-direction: column;
+    .about{
+        margin-top: 0;
     }
-    .about .image , .about .content {
-        width: 100%;
-    }
-
     /*Why us*/
-    .list_box , .deco-list {
+    .list_box{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .box , .deco {
+    .box{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:730px){
+    .deco-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .deco {
         width: 100%;
     }
 }
